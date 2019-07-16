@@ -7,3 +7,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # gem "rails"
 gem 'sinatra', '2.0.5'
 gem 'sinatra-contrib'
+
+gem 'sorbet', :group => :development
+gem 'sorbet-runtime'
+gem 'rack-test'
