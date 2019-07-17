@@ -364,6 +364,7 @@
 # wrong constant name run
 # wrong constant name <static-init>
 # wrong constant name <static-init>
+# uninitialized constant Bundler::Index::Elem
 # wrong constant name initialize
 # wrong constant name inject
 # wrong constant name remove
@@ -379,6 +380,8 @@
 # wrong constant name ambiguous_gems
 # wrong constant name ambiguous_gems=
 # wrong constant name install
+# uninitialized constant Bundler::Molinillo::DependencyGraph::Elem
+# uninitialized constant Bundler::Molinillo::DependencyGraph::Log::Elem
 # wrong constant name ==
 # wrong constant name app_cache_dirname
 # wrong constant name app_cache_path
@@ -495,6 +498,7 @@
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name validate!
+# uninitialized constant Bundler::SpecSet::Elem
 # wrong constant name add_color
 # wrong constant name ask
 # wrong constant name confirm
