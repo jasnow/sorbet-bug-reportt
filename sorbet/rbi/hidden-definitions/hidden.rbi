@@ -1312,8 +1312,6 @@ module Enumerable
 
   def grep_v(_); end
 
-  def lazy(); end
-
   def slice_after(*_); end
 
   def slice_before(*_); end
@@ -6809,25 +6807,8 @@ class JSON::CircularDatastructure
   extend ::T::Sig
 end
 
-module JSON::Ext
-end
-
-module JSON::Ext::Generator
-end
-
-module JSON::Ext::Generator::GeneratorMethods
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Array
-  def to_json(*_); end
-end
-
 module JSON::Ext::Generator::GeneratorMethods::Array
   extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::FalseClass
-  def to_json(*_); end
 end
 
 module JSON::Ext::Generator::GeneratorMethods::FalseClass
@@ -6835,15 +6816,7 @@ module JSON::Ext::Generator::GeneratorMethods::FalseClass
 end
 
 module JSON::Ext::Generator::GeneratorMethods::Float
-  def to_json(*_); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Float
   extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Hash
-  def to_json(*_); end
 end
 
 module JSON::Ext::Generator::GeneratorMethods::Hash
@@ -6851,15 +6824,7 @@ module JSON::Ext::Generator::GeneratorMethods::Hash
 end
 
 module JSON::Ext::Generator::GeneratorMethods::Integer
-  def to_json(*_); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Integer
   extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::NilClass
-  def to_json(*_); end
 end
 
 module JSON::Ext::Generator::GeneratorMethods::NilClass
@@ -6867,23 +6832,7 @@ module JSON::Ext::Generator::GeneratorMethods::NilClass
 end
 
 module JSON::Ext::Generator::GeneratorMethods::Object
-  def to_json(*_); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Object
   extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::String
-  def to_json(*_); end
-
-  def to_json_raw(*_); end
-
-  def to_json_raw_object(); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::String::Extend
-  def json_create(_); end
 end
 
 module JSON::Ext::Generator::GeneratorMethods::String::Extend
@@ -6895,10 +6844,6 @@ module JSON::Ext::Generator::GeneratorMethods::String
 end
 
 module JSON::Ext::Generator::GeneratorMethods::TrueClass
-  def to_json(*_); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::TrueClass
   extend ::T::Sig
 end
 
@@ -6907,62 +6852,7 @@ module JSON::Ext::Generator::GeneratorMethods
 end
 
 class JSON::Ext::Generator::State
-  def [](_); end
-
-  def []=(_, _1); end
-
-  def allow_nan?(); end
-
-  def array_nl(); end
-
-  def array_nl=(array_nl); end
-
-  def ascii_only?(); end
-
-  def buffer_initial_length(); end
-
-  def buffer_initial_length=(buffer_initial_length); end
-
-  def check_circular?(); end
-
-  def configure(_); end
-
-  def depth(); end
-
-  def depth=(depth); end
-
-  def generate(_); end
-
-  def indent(); end
-
-  def indent=(indent); end
-
-  def initialize(*_); end
-
-  def max_nesting(); end
-
-  def max_nesting=(max_nesting); end
-
-  def merge(_); end
-
-  def object_nl(); end
-
-  def object_nl=(object_nl); end
-
-  def space(); end
-
-  def space=(space); end
-
-  def space_before(); end
-
-  def space_before=(space_before); end
-
-  def to_h(); end
-
-  def to_hash(); end
-end
-
-class JSON::Ext::Generator::State
+  extend ::T::Sig
   def self.from_state(_); end
 end
 
@@ -6972,13 +6862,10 @@ end
 
 class JSON::Ext::Parser
   def initialize(*_); end
-
-  def parse(); end
-
-  def source(); end
 end
 
 class JSON::Ext::Parser
+  extend ::T::Sig
 end
 
 module JSON::Ext
@@ -11483,8 +11370,6 @@ class String
   def encode!(*_); end
 
   def grapheme_clusters(); end
-
-  def match?(*_); end
 
   def parse_csv(**options); end
 
