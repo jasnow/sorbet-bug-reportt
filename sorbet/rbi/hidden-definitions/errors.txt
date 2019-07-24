@@ -603,8 +603,6 @@
 # uninitialized constant Coverage
 # uninitialized constant Coverage
 # wrong constant name initialize
-# undefined singleton method `_parse$1' for `Date'
-# wrong constant name _parse$1
 # wrong constant name !=
 # wrong constant name ==
 # wrong constant name __getobj__
@@ -1120,8 +1118,6 @@
 # wrong constant name debug=
 # wrong constant name <static-init>
 # wrong constant name garbage_collect
-# undefined singleton method `report$1' for `GC::Profiler'
-# wrong constant name report$1
 # undefined singleton method `start$1' for `GC'
 # undefined singleton method `stat$2' for `GC'
 # wrong constant name latest_gc_info
@@ -3130,12 +3126,6 @@
 # wrong constant name sqrt
 # wrong constant name from_state
 # wrong constant name initialize
-# undefined singleton method `dump$1' for `JSON'
-# undefined singleton method `generate$1' for `JSON'
-# undefined singleton method `pretty_generate$1' for `JSON'
-# wrong constant name dump$1
-# wrong constant name generate$1
-# wrong constant name pretty_generate$1
 # undefined method `clone$1' for module `Kernel'
 # undefined method `define_singleton_method$2' for module `Kernel'
 # undefined method `display$1' for module `Kernel'
@@ -3182,8 +3172,6 @@
 # undefined method `[]$2' for class `MatchData'
 # wrong constant name []$2
 # wrong constant name named_captures
-# undefined singleton method `log$1' for `Math'
-# wrong constant name log$1
 # uninitialized constant MessagePack
 # uninitialized constant MessagePack
 # wrong constant name <<
@@ -3419,8 +3407,6 @@
 # wrong constant name symlink?$2
 # wrong constant name sysopen$1
 # wrong constant name write$1
-# undefined singleton method `glob$1' for `Pathname'
-# wrong constant name glob$1
 # uninitialized constant PrettyPrint
 # uninitialized constant PrettyPrint
 # undefined method `curry$1' for class `Proc'
@@ -4836,8 +4822,6 @@
 # wrong constant name <static-init>
 # wrong constant name main
 # wrong constant name output_file
-# wrong constant name <static-init>
-# wrong constant name <static-init>
 # uninitialized constant SortedSet::InspectKey
 # wrong constant name initialize
 # wrong constant name setup
@@ -5166,18 +5150,6 @@
 # wrong constant name precompiled
 # wrong constant name precompiled_template
 # wrong constant name <static-init>
-# undefined singleton method `at$2' for `Time'
-# undefined singleton method `gm$1' for `Time'
-# undefined singleton method `local$1' for `Time'
-# undefined singleton method `mktime$1' for `Time'
-# undefined singleton method `utc$1' for `Time'
-# undefined singleton method `zone_offset$1' for `Time'
-# wrong constant name at$2
-# wrong constant name gm$1
-# wrong constant name local$1
-# wrong constant name mktime$1
-# wrong constant name utc$1
-# wrong constant name zone_offset$1
 # undefined method `enable$2' for class `TracePoint'
 # wrong constant name __enable
 # wrong constant name enable$2
