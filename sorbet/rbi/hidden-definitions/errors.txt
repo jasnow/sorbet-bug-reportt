@@ -943,33 +943,6 @@
 # wrong constant name utime$1
 # wrong constant name blockdev?
 # wrong constant name chardev?
-# wrong constant name directory?
-# wrong constant name empty?
-# wrong constant name executable?
-# wrong constant name executable_real?
-# wrong constant name exist?
-# wrong constant name exists?
-# wrong constant name file?
-# wrong constant name grpowned?
-# wrong constant name identical?
-# wrong constant name owned?
-# wrong constant name pipe?
-# wrong constant name readable?
-# wrong constant name readable_real?
-# wrong constant name setgid?
-# wrong constant name setuid?
-# wrong constant name size
-# wrong constant name size?
-# wrong constant name socket?
-# wrong constant name sticky?
-# wrong constant name symlink?
-# wrong constant name world_readable?
-# wrong constant name world_writable?
-# wrong constant name writable?
-# wrong constant name writable_real?
-# wrong constant name zero?
-# wrong constant name blockdev?
-# wrong constant name chardev?
 # wrong constant name chmod
 # wrong constant name chown
 # wrong constant name copy
@@ -3109,18 +3082,6 @@
 # wrong constant name named_captures
 # uninitialized constant MessagePack
 # uninitialized constant MessagePack
-# wrong constant name []
-# wrong constant name arity
-# wrong constant name clone
-# wrong constant name curry
-# wrong constant name name
-# wrong constant name original_name
-# wrong constant name owner
-# wrong constant name parameters
-# wrong constant name receiver
-# wrong constant name source_location
-# wrong constant name super_method
-# wrong constant name unbind
 # undefined method `class_eval$2' for class `Module'
 # Did you mean?  class_eval
 # undefined method `class_variables$1' for class `Module'

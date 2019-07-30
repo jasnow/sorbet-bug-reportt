@@ -1364,62 +1364,6 @@ class File
 
 end
 
-module FileTest
-  def self.blockdev?(_); end
-
-  def self.chardev?(_); end
-
-  def self.directory?(_); end
-
-  def self.empty?(_); end
-
-  def self.executable?(_); end
-
-  def self.executable_real?(_); end
-
-  def self.exist?(_); end
-
-  def self.exists?(_); end
-
-  def self.file?(_); end
-
-  def self.grpowned?(_); end
-
-  def self.identical?(_, _1); end
-
-  def self.owned?(_); end
-
-  def self.pipe?(_); end
-
-  def self.readable?(_); end
-
-  def self.readable_real?(_); end
-
-  def self.setgid?(_); end
-
-  def self.setuid?(_); end
-
-  def self.size(_); end
-
-  def self.size?(_); end
-
-  def self.socket?(_); end
-
-  def self.sticky?(_); end
-
-  def self.symlink?(_); end
-
-  def self.world_readable?(_); end
-
-  def self.world_writable?(_); end
-
-  def self.writable?(_); end
-
-  def self.writable_real?(_); end
-
-  def self.zero?(_); end
-end
-
 module FileUtils
   include ::FileUtils::StreamUtils_
 end
@@ -5743,32 +5687,6 @@ end
 
 class MatchData
   def named_captures(); end
-end
-
-class Method
-  def [](*_); end
-
-  def arity(); end
-
-  def clone(); end
-
-  def curry(*_); end
-
-  def name(); end
-
-  def original_name(); end
-
-  def owner(); end
-
-  def parameters(); end
-
-  def receiver(); end
-
-  def source_location(); end
-
-  def super_method(); end
-
-  def unbind(); end
 end
 
 Methods = T::Private::Methods

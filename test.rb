@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # typed: false
 
 require 'sinatra/base'
