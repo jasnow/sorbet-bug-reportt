@@ -8718,6 +8718,8 @@ class Sorbet::Private::RequireEverything
 
   def self.rails?(); end
 
+  def self.rb_file_paths(); end
+
   def self.require_all_files(); end
 
   def self.require_everything(); end

@@ -4866,6 +4866,7 @@
 # wrong constant name my_require
 # wrong constant name patch_kernel
 # wrong constant name rails?
+# wrong constant name rb_file_paths
 # wrong constant name require_all_files
 # wrong constant name require_everything
 # wrong constant name alias
