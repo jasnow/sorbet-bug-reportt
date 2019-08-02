@@ -5685,10 +5685,6 @@ module Marshal
   def self.restore(*_); end
 end
 
-class MatchData
-  def named_captures(); end
-end
-
 Methods = T::Private::Methods
 
 class Module
@@ -8717,6 +8713,8 @@ class Sorbet::Private::RequireEverything
   def self.patch_kernel(); end
 
   def self.rails?(); end
+
+  def self.rails_load_paths(); end
 
   def self.rb_file_paths(); end
 
