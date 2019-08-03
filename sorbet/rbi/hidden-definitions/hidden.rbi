@@ -9168,17 +9168,6 @@ class Thread
   def self.stop(); end
 end
 
-class ThreadGroup
-  def add(_); end
-
-  def enclose(); end
-
-  def enclosed?(); end
-
-  def list(); end
-  Default = ::T.let(nil, ::T.untyped)
-end
-
 module Tilt
   LOCK = ::T.let(nil, ::T.untyped)
   VERSION = ::T.let(nil, ::T.untyped)
