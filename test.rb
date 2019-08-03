@@ -1,9 +1,11 @@
 #!/usr/bin/env ruby
-# typed: false
+# typed: true
 
 require 'sinatra/base'
 
 class App < Sinatra::Base
+  extend Sinatra::Helpers
+
   get '/' do
     body 'Hello world!'
   end
