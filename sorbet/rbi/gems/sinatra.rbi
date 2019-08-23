@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/sinatra/all/sinatra.rbi
 #
-# sinatra-2.0.5
+# sinatra-2.0.6
 module Sinatra
   def self.helpers(*extensions, &block); end
   def self.new(base = nil, &block); end

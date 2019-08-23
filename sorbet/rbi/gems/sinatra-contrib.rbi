@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/sinatra-contrib/all/sinatra-contrib.rbi
 #
-# sinatra-contrib-2.0.5
+# sinatra-contrib-2.0.6
 module Sinatra
 end
 module Sinatra::EngineTracking
