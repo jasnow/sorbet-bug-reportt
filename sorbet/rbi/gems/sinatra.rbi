@@ -38,7 +38,10 @@ class Sinatra::IndifferentHash < Hash
   def rassoc(value); end
   def replace(other_hash); end
   def self.[](*args); end
+  def slice(*keys); end
   def store(key, value); end
+  def transform_keys!; end
+  def transform_keys(&block); end
   def transform_values!; end
   def transform_values(&block); end
   def update(other_hash); end
@@ -90,6 +93,7 @@ class Anonymous_Struct_3 < Struct
   def app; end
   def app=(_); end
   def self.[](*arg0); end
+  def self.inspect; end
   def self.members; end
   def self.new(*arg0); end
 end
