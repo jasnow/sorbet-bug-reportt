@@ -40,6 +40,7 @@ BasicObject::BasicObject = BasicObject
 
 class BigDecimal
   def clone(); end
+
   EXCEPTION_NaN = ::T.let(nil, ::T.untyped)
   SIGN_NaN = ::T.let(nil, ::T.untyped)
   VERSION = ::T.let(nil, ::T.untyped)
@@ -933,6 +934,7 @@ class Dir
   def children(); end
 
   def each_child(); end
+
 end
 
 class Dir
@@ -1066,6 +1068,7 @@ class Enumerator
   def +(_); end
 
   def each_with_index(); end
+
 end
 
 class Enumerator::ArithmeticSequence
@@ -1372,6 +1375,7 @@ end
 
 class Exception
   def full_message(*_); end
+
 end
 
 class Exception
@@ -1414,6 +1418,7 @@ class File
   def self.lutime(*_); end
 
   def self.mkfifo(*_); end
+
 end
 
 module FileUtils
@@ -1674,6 +1679,7 @@ class IO
   def self.foreach(*_); end
 
   def self.pipe(*_); end
+
 end
 
 class IPAddr
@@ -1796,6 +1802,7 @@ class Integer
   def pow(*_); end
 
   def to_bn(); end
+
   GMP_VERSION = ::T.let(nil, ::T.untyped)
 end
 
@@ -2177,6 +2184,7 @@ class Pathname
   def glob(*_); end
 
   def make_symlink(_); end
+
 end
 
 class Proc
@@ -2199,6 +2207,7 @@ end
 
 module Process::Sys
   def self.getegid(); end
+
 end
 
 class Process::Tms
@@ -2229,6 +2238,7 @@ module Process
   def self.last_status(); end
 
   def self.setpgrp(); end
+
 end
 
 module Psych
@@ -4319,6 +4329,7 @@ Rack::Utils::ParameterTypeError = Rack::QueryParser::ParameterTypeError
 
 module Random::Formatter
   def alphanumeric(n=T.unsafe(nil)); end
+
   ALPHANUMERIC = ::T.let(nil, ::T.untyped)
 end
 
@@ -5354,6 +5365,7 @@ class String
   def unicode_normalized?(*_); end
 
   def unpack1(_); end
+
 end
 
 class String
@@ -5364,6 +5376,7 @@ class StringIO
   def length(); end
 
   def truncate(_); end
+
 end
 
 class StringScanner
