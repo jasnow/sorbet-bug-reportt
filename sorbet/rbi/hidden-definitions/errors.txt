@@ -3065,10 +3065,6 @@
 # wrong constant name count$1
 # wrong constant name delete$1
 # wrong constant name delete!$1
-# wrong constant name delete_prefix
-# wrong constant name delete_prefix!
-# wrong constant name delete_suffix
-# wrong constant name delete_suffix!
 # wrong constant name downcase$1
 # wrong constant name downcase!$1
 # wrong constant name each_grapheme_cluster
