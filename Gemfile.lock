@@ -2,13 +2,16 @@ GEM
   remote: https://rubygems.org/
   specs:
     backports (3.15.0)
+    coderay (1.1.2)
+    method_source (0.9.2)
     multi_json (1.13.1)
     mustermann (1.0.3)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     rack (2.0.7)
     rack-protection (2.0.6)
       rack
-    rack-test (1.1.0)
-      rack (>= 1.0, < 3)
     sinatra (2.0.6)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -21,21 +24,25 @@ GEM
       rack-protection (= 2.0.6)
       sinatra (= 2.0.6)
       tilt (~> 2.0)
-    sorbet (0.4.4798)
-      sorbet-static (= 0.4.4798)
     sorbet-runtime (0.4.4798)
     sorbet-static (0.4.4798-universal-darwin-14)
+    tapioca (0.2.2)
+      pry (>= 0.12.2)
+      sorbet-runtime
+      sorbet-static (~> 0.4.4471)
+      thor (~> 0.20.3)
+      zeitwerk (~> 2.1)
+    thor (0.20.3)
     tilt (2.0.10)
+    zeitwerk (2.1.10)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack-test
   sinatra (= 2.0.6)
   sinatra-contrib
-  sorbet
-  sorbet-runtime
+  tapioca
 
 BUNDLED WITH
    2.0.2
