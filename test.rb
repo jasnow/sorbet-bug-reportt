@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# typed: strict
+# typed: ignore
 
 require 'sinatra/base'
 
