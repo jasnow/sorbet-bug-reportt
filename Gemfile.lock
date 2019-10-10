@@ -24,17 +24,15 @@ GEM
       rack-protection (= 2.0.6)
       sinatra (= 2.0.6)
       tilt (~> 2.0)
-    sorbet-runtime (0.4.4798)
-    sorbet-static (0.4.4798-universal-darwin-14)
-    tapioca (0.2.2)
+    sorbet-runtime (0.4.4849)
+    sorbet-static (0.4.4849-universal-darwin-14)
+    tapioca (0.2.3)
       pry (>= 0.12.2)
       sorbet-runtime
       sorbet-static (~> 0.4.4471)
       thor (~> 0.20.3)
-      zeitwerk (~> 2.1)
     thor (0.20.3)
     tilt (2.0.10)
-    zeitwerk (2.1.10)
 
 PLATFORMS
   ruby
