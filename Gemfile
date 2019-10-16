@@ -7,6 +7,7 @@ source "https://rubygems.org"
 # gem "rails"
 gem 'sinatra', '2.0.6'
 gem 'sinatra-contrib'
+gem 'rake'
 
 gem 'tapioca', require: false, group: :development
 #gem 'rack-test'
